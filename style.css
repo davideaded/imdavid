@@ -1,0 +1,35 @@
+:root {
+  --light-bg-color: #e6e6bd;
+  --light-font-color: #44454e;
+  --light-link-color: #963d3d;
+  --light-linkbg-color: #c9ced6;
+
+  --dark-bg-color: #000000;
+  --dark-title-color: #2da52d;
+  --dark-font-color: #b9c9b7;
+  --dark-link-color: #3bca47;
+  --dark-linkbg-color: #0e2929;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-nav {
+  max-width: 150px;
+}
+.main-nav ul {
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  width: 100%;
+}
+
+.main-nav li {
+  font-size: small;
+}
+
+.main-nav li:hover {
+  background-color: var(--light-linkbg-color);
+}
