@@ -16,20 +16,50 @@
   margin: 0;
 }
 
-.main-nav {
-  max-width: 150px;
+body {
+  max-width: 80%;
+  margin: auto;
 }
-.main-nav ul {
+
+.h-line {
+  border: 2px solid var(--light-font-color);
+}
+
+.container {
+  display: flex;
+}
+
+#main-nav {
+  padding: 3%;
+  font-size: 30px;
+}
+
+#main-nav ul {
   padding: 0;
-  display: inline-block;
   list-style: none;
   width: 100%;
 }
 
-.main-nav li {
-  font-size: small;
+#main-nav li {
+  color: var(--light-link-color);
+  width: 3.5em;
+  padding: 3%;
+  border-radius: 5%;
+  cursor: pointer;
 }
 
-.main-nav li:hover {
+#main-nav li:active {
   background-color: var(--light-linkbg-color);
+}
+
+#main-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+iframe {
+  width: 80%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
 }
